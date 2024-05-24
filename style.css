@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./Background.jpg");
+    background-size: cover;
+}
+
+.container {
+    height: 70vh;
+    width: 18vw;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 0 1.5rem 0 1.5rem;
+    border-radius: 0.75rem;
+}
+
+h1 {
+    padding-top: 2rem;
+    cursor: default;
+}
+
+.name-div {
+    padding-top: 1.5rem;
+}
+
+.name-div p {
+    text-align: left;
+    cursor: default;
+}
+
+.name-div input {
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.password-div {
+    padding-top: 0.85rem;
+}
+
+.password-div p {
+    text-align: left;
+    cursor: default;
+}
+
+.password-div input {
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.forget {
+    padding-top: 0.25rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btn {
+    margin-top: 1.25rem;
+    width: 100%;
+    height: 2rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    background-image: linear-gradient(to left, rgb(0, 255, 34), purple, rgb(0, 128, 113));
+    color: #fff;
+    cursor: pointer;
+}
+
+.otherSigninOption {
+    padding-top: 1.5rem;
+    cursor: default;
+}
+
+.option {
+    margin: 0.85rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.75rem;
+    font-size: 1.25rem;
+}
+
+.createAcc-div {
+    padding-top: 4.5rem;
+}
+
+.createAcc-div p {
+    padding-bottom: 0.25rem;
+    cursor: default;
+}
+
+.createAcc-div a {
+    text-decoration: none;
+}
+
+.hover {
+    transition: transform .2s;
+}
+
+.hover:hover {
+    transform: scale(1.5);
+}
+
+.facebook {
+    color: blue;
+}
+
+.x {
+    color: black;
+}
+
+.google {
+    color: red;
+}
+
+.msg-div {
+    position: absolute;
+    font-size: 3rem;
+    height: auto;
+    width: 100%;
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    background-color: cadetblue;
+    display: none;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <form>
+        <h1>Sign up</h1>
+    
+            <div class="name-div">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+            </div>
+    
+            <div class="gender-div">
+                Gender : 
+                <input type="radio" id="Male" class="Male" name="Gender">
+                <label for="Male" class="Male">Male</label>
+    
+                
+                <input type="radio" id="Female" class="Female" name="Gender">
+                <label for="Female" class="Female">Female </label>
+            </div>
+
+            <div class="dob-div">
+                <label for="dob">Date of Birth </label>
+                <input type="date" id="dob">
+            </div>
+    
+            <div class="username-div">
+                <input type="text" placeholder="Enter Username">
+            </div>
+
+            <div class="mobile-div">
+                <label for="mobile">Mobile Number</label>
+                <input type="number" placeholder="+91 1236547890" id="mobile">
+            </div>
+    
+            <div class="email-div">
+                <input type="email" placeholder="Email" pattern="+@gmail.com">
+            </div>
+    
+            <div class="password-div">
+                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Confirm Password">
+            </div>
+    
+            <div class="declaration">
+                <input type="checkbox"> I accept the Terms of Use & Privacy Policy
+            </div>
+    
+            <button class="btn">Sign up</button>
+    
+            <div class="sigin">
+                Already have an account? <a href="./index.html">Login here</a>
+            </div>
+    </form>
+</body>
+</html>

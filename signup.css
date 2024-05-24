@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Background.jpg);
+    background-size: cover;
+}
+
+form {
+    padding: 0 1.5rem 0 1.5rem;
+    height: 75vh;
+    width: 21vw;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    cursor: default;
+}
+
+.name-div {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.name-div input {
+    width: 100%;
+    font-size: 1.2rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+}
+
+.gender-div {
+    text-align: left;
+    padding-top: 0.75rem;
+    font-size: 1.2rem;
+    cursor: default;
+}
+
+.Male {
+    cursor: pointer;
+}
+
+.Female {
+    cursor: pointer;
+}
+
+.dob-div {
+    text-align: left;
+    padding-top: 0.75rem;
+    font-size: 1.2rem;
+}
+
+.dob-div input {
+    font-size: 0.85rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    cursor: text;
+}
+
+.username-div input {
+    padding-top: 0.75rem;
+    width: 100%;
+    font-size: 1.2rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+}
+
+.mobile-div {
+    padding-top: 0.75rem;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.mobile-div input::-webkit-outer-spin-button,
+.mobile-div input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.mobile-div input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    width: auto;
+}
+
+.email-div input {
+    padding-top: 0.75rem;
+    width: 100%;
+    font-size: 1.2rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+}
+
+.password-div input {
+    padding-top: 0.75rem;
+    width: 100%;
+    font-size: 1.2rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+}
+
+.declaration {
+    padding-top: 2rem;
+    cursor: default;
+}
+
+.declaration input {
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: 0.85rem;
+    width: 100%;
+    height: 2rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    background-image: linear-gradient(to left, rgb(0, 255, 34), purple, rgb(0, 128, 113));
+    color: #fff;
+    cursor: pointer;
+}
+
+.sigin {
+    padding-top: 0.85rem;
+    cursor: default;
+}
