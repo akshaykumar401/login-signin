@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -146,4 +147,54 @@ h1 {
 .sigin {
     padding-top: 0.85rem;
     cursor: default;
+}
+
+@media (max-width : 1200px) {
+    form {
+        width: 23vw;
+        height: auto;
+        padding-bottom: 5vw;
+    }
+}
+
+
+@media (max-width : 1000px) {
+    form {
+        width: 29vw;
+    }
+}
+
+
+@media (max-width : 900px) {
+    form {
+        width: 34vw;
+    }
+}
+
+
+@media (max-width : 750px) {
+    form {
+        width: 40vw;
+    }
+}
+
+
+@media (max-width : 650px) {
+    form {
+        width: 50vw;
+    }
+}
+
+
+@media (max-width : 450px) {
+    form {
+        width: 60vw;
+    }
+}
+
+
+@media (max-width : 350px) {
+    form {
+        width: 69vw;
+    }
 }
